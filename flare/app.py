@@ -149,7 +149,8 @@ class App:
                     (
                         "Worker URL not configured. Set it with:\n"
                         "  export FLARE_WORKER_URL=http://localhost:8787\n"
-                        "Or configure it permanently (coming soon)"
+                        "Or configure it permanently with:\n"
+                        "  flare config init"
                     )
                 )
 
@@ -158,7 +159,8 @@ class App:
                     (
                         "API key not configured. Set it with:\n"
                         "  export FLARE_API_KEY=your-api-key\n"
-                        "Or configure it permanently (coming soon)"
+                        "Or configure it permanently with:\n"
+                        "  flare config init"
                     )
                 )
 

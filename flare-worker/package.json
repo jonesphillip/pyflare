@@ -16,7 +16,7 @@
     "python"
   ],
   "author": "",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@cloudflare/sandbox": "*",
     "@types/node": "^24.9.2",

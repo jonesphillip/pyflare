@@ -1,6 +1,6 @@
 # Flare
 
-Run Python functions at scale on Cloudflare with a single command. Write normal Python, execute across multiple containers in parallel.
+An experiment in running Python functions at scale on Cloudflare with a single command. Write normal Python, execute across multiple containers in parallel.
 
 ## Quick Start
 
