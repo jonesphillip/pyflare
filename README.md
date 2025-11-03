@@ -2,6 +2,8 @@
 
 An experiment in running Python functions at scale on Cloudflare with a single command. Write normal Python, execute across multiple containers in parallel.
 
+![Flare Demo](assets/flare-screenshot.png)
+
 ## Quick Start
 
 ### 1. Install
@@ -36,7 +38,7 @@ flare config init
 # Enter Worker URL and generate API key
 ```
 
-Set the API key in your Worker:
+Set the API key in your Worker (this authenticates the Python client with your Worker):
 ```bash
 cd flare-worker
 echo 'sk_your_generated_key' | npx wrangler secret put API_KEY
